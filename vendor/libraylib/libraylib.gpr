@@ -1,0 +1,3 @@
+project Libraylib is
+   for Source_Dirs use ();
+end Libraylib;

@@ -1,0 +1,14 @@
+name = "libraylib"
+version = "6.0.0"
+description = "Official Raylib 6.0 Windows x64 MinGW native library"
+licenses = "Zlib"
+
+project-files = ["libraylib.gpr"]
+
+[environment]
+LIBRARY_PATH.prepend = "${CRATE_ROOT}/raylib-6.0_win64_mingw-w64/lib"
+C_INCLUDE_PATH.prepend = "${CRATE_ROOT}/raylib-6.0_win64_mingw-w64/include"
+PATH.prepend = "${CRATE_ROOT}/raylib-6.0_win64_mingw-w64/lib"
+
+
+

@@ -1,0 +1,17 @@
+{
+  "[ada]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 3,
+    "editor.defaultFormatter": "AdaCore.ada"
+  },
+  "ada.projectFile": "ada_experiments.gpr",
+  "terminal.integrated.env.windows": {
+    "Path": "C:\\Users\\sa-su\\AppData\\Local\\Programs\\Alire\\bin;${env:Path}",
+    "ALIRE": null,
+    "ADA_EXPERIMENTS_ALIRE_PREFIX": null,
+    "GNAT_NATIVE_ALIRE_PREFIX": null,
+    "GPRBUILD_ALIRE_PREFIX": null,
+    "LIBRAYLIB_ALIRE_PREFIX": null,
+    "RAYLIB_ALIRE_PREFIX": null
+  }
+}

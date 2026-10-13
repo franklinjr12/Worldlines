@@ -1,0 +1,20 @@
+name = "ada_experiments"
+description = "Worldlines: a living world trade simulation in Ada 2022"
+version = "0.1.0-dev"
+
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+executables = ["ada_experiments"]
+
+[[depends-on]]
+libraylib = "^6.0.0"
+
+[[pins]]
+libraylib = { path='vendor/libraylib' }
+
+[[depends-on]]
+raylib = "^2.0.0"
+
+

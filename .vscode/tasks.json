@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "args": [
+        "-n",
+        "build"
+      ],
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "problemMatcher": [
+        "$ada-error",
+        "$ada-warning",
+        "$ada-info"
+      ],
+      "command": "C:\\Users\\sa-su\\AppData\\Local\\Programs\\Alire\\bin\\alr.exe",
+      "type": "process",
+      "label": "Ada: Build"
+    },
+    {
+      "args": [
+        "-n",
+        "run"
+      ],
+      "problemMatcher": [],
+      "type": "process",
+      "label": "Ada: Run",
+      "command": "C:\\Users\\sa-su\\AppData\\Local\\Programs\\Alire\\bin\\alr.exe"
+    }
+  ]
+}

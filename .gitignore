@@ -1,0 +1,9 @@
+/obj/
+/bin/
+/alire/
+/config/
+/worldlines*.sav
+/worldlines*.csv
+/worldlines-preview*.png
+/vendor/libraylib/alire/
+/vendor/libraylib/config/

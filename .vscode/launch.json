@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "setupCommands": [
+        {
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "MIMode": "gdb",
+      "cwd": "${workspaceFolder}",
+      "miDebuggerPath": "C:\\Users\\sa-su\\AppData\\Local\\alire\\cache\\msys64\\mingw64\\bin\\gdb.exe",
+      "preLaunchTask": "Ada: Build",
+      "type": "cppdbg",
+      "name": "Debug Worldlines",
+      "args": [],
+      "externalConsole": false,
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/ada_experiments.exe",
+      "stopAtEntry": false
+    }
+  ],
+  "version": "0.2.0"
+}
